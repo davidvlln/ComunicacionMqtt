@@ -14,6 +14,7 @@ client.on("connect", () => {
     }
   });
 });
+
 client.on("message", (topic, message) => {
   console.log(`MENSAJE ENVIADO DESDE ${topic}: `, message.toString());
 });
